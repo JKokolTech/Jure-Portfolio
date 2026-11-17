@@ -96,3 +96,22 @@ body{
     color: var(--accent-mint);
     transform: translateY(-2px);
 }
+
+.hero-section{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 2rem;
+padding: 3rem 1.5rem;
+}
+
+.hero-section .intoroduction{
+    flex: 1;
+}
+
+.hero-section img{
+    width: 300px;        /* Equal width and height */
+    height: 300px;
+    border-radius: 50%;  /* Rounds corners into a circle */
+    object-fit: cover;
+}
